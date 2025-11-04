@@ -11,8 +11,8 @@ Gem::Specification.new do |s|
   s.name = 'partial_menu'
   s.version = PartialMenu::VERSION
   s.authors = ['Peter Nagy']
-  s.email = ['peter@meter-reader.com']
-  s.homepage = 'https://bitbucket.org/meterreader/partial_menu'
+  s.email = ['peter@antronin.consulting']
+  s.homepage = 'https://github.com/Antronin-Consulting/partial_menu'
   s.summary = 'Navigation menu builder based on Rails partial views.'
   s.description = "Generating hierarchical menus in Rails should utilize Rails'
   built-in partial views instead of using some kind on HTML code generators.
@@ -26,7 +26,6 @@ Gem::Specification.new do |s|
   ]
 
   s.add_development_dependency 'appraisal', '~> 2.5'
-
   s.add_development_dependency 'bundler-audit', '~> 0.6'
   s.add_development_dependency 'ci_reporter_minitest', '~> 1.0'
   s.add_development_dependency 'codecov', '~> 0.1'
@@ -38,10 +37,10 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'sqlite3', '~> 1.3'
 
   s.metadata = {
-    'bug_tracker_uri' => 'https://bitbucket.org/meterreader/partial_menu/issues',
+    'bug_tracker_uri' => 'https://github.com/Antronin-Consulting/partial_menu/issues',
     'documentation_uri' => 'https://www.rubydoc.info/gems/partial_menu/',
-    'homepage_uri' => 'https://bitbucket.org/meterreader/partial_menu/',
-    'source_code_uri' => 'https://bitbucket.org/meterreader/partial_menu/src'
+    'homepage_uri' => 'https://github.com/Antronin-Consulting/partial_menu/',
+    'source_code_uri' => 'https://github.com/Antronin-Consulting/partial_menu/src'
   }
 end
 # rubocop:enable Metrics/BlockLength
